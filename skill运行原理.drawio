@@ -1,0 +1,258 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Skill 执行原理流程图 (优化版)" id="i9KAH-0NGUzs5Bcu9X2a">
+    <mxGraphModel dx="2054" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-87" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#1F4E79;" value="Skill 执行原理流程图" vertex="1">
+          <mxGeometry height="30" width="400" x="640" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-88" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6c8ebf;strokeWidth=2;endArrow=classic;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="520" as="sourcePoint" />
+            <mxPoint x="480" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-89" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6c8ebf;strokeWidth=2;endArrow=classic;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="560" />
+            </Array>
+            <mxPoint x="560" y="520" as="sourcePoint" />
+            <mxPoint x="560" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-90" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#6c8ebf;strokeWidth=2;endArrow=classic;endFill=1;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="520" />
+            </Array>
+            <mxPoint x="1200" y="560" as="sourcePoint" />
+            <mxPoint x="1280" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-91" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#2E75B6;strokeWidth=2.5;endArrow=classic;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="680" as="sourcePoint" />
+            <mxPoint x="720" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-92" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#2E75B6;strokeWidth=2.5;endArrow=classic;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="680" as="sourcePoint" />
+            <mxPoint x="960" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-93" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#548235;strokeWidth=2.5;endArrow=classic;endFill=1;fontSize=12;fontColor=#548235;labelBackgroundColor=#ffffff;labelBorderColor=#548235;" value="是 (命中 Skill)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="720" as="sourcePoint" />
+            <mxPoint x="1000" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-94" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#808080;strokeWidth=2;endArrow=classic;endFill=1;dashed=1;fontSize=12;fontColor=#808080;labelBackgroundColor=#ffffff;labelBorderColor=#808080;" value="否 (通用对话)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="680" as="sourcePoint" />
+            <mxPoint x="1200" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-95" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#548235;strokeWidth=2.5;endArrow=classic;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="890" />
+              <mxPoint x="480" y="890" />
+              <mxPoint x="480" y="900" />
+            </Array>
+            <mxPoint x="1000" y="900" as="sourcePoint" />
+            <mxPoint x="560" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-96" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#548235;strokeWidth=2.5;endArrow=classic;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="900" as="sourcePoint" />
+            <mxPoint x="720" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-97" edge="1" parent="1" source="W4h_WMsA1dUNxwlXi-L5-124" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#C55A11;strokeWidth=2.5;endArrow=classic;endFill=1;fontSize=12;fontColor=#C55A11;labelBackgroundColor=#ffffff;labelBorderColor=#C55A11;exitX=0.464;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" value="是 (调用工具)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="940" as="sourcePoint" />
+            <mxPoint x="800" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-98" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#548235;strokeWidth=2.5;endArrow=classic;endFill=1;fontSize=12;fontColor=#548235;labelBackgroundColor=#ffffff;labelBorderColor=#548235;" value="否 (直接回复)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="900" as="sourcePoint" />
+            <mxPoint x="1040" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-99" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#548235;strokeWidth=2.5;endArrow=classic;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="990" />
+              <mxPoint x="880" y="990" />
+              <mxPoint x="880" y="960" />
+            </Array>
+            <mxPoint x="1120" y="900" as="sourcePoint" />
+            <mxPoint x="760" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-100" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#548235;strokeWidth=2.5;endArrow=classic;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="1020" />
+              <mxPoint x="1200" y="1020" />
+              <mxPoint x="1200" y="560" />
+            </Array>
+            <mxPoint x="760" y="960" as="sourcePoint" />
+            <mxPoint x="1200" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-101" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#808080;strokeWidth=2;endArrow=classic;endFill=1;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="580" />
+              <mxPoint x="1200" y="580" />
+            </Array>
+            <mxPoint x="1280" y="680" as="sourcePoint" />
+            <mxPoint x="1200" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-102" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#548235;strokeWidth=2;endArrow=classic;endFill=1;dashed=1;fontSize=11;fontColor=#548235;labelBackgroundColor=#ffffff;labelBorderColor=#548235;" value="读取 Skill 列表 &amp; 元数据">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="1250" />
+              <mxPoint x="400" y="1250" />
+              <mxPoint x="400" y="650" />
+            </Array>
+            <mxPoint x="560" y="1180" as="sourcePoint" />
+            <mxPoint x="760" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-103" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#548235;strokeWidth=2;endArrow=classic;endFill=1;dashed=1;fontSize=11;fontColor=#548235;labelBackgroundColor=#ffffff;labelBorderColor=#548235;" value="把 SKILL.md 内容注入 Prompt">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="1120" />
+            </Array>
+            <mxPoint x="800" y="1180" as="sourcePoint" />
+            <mxPoint x="1000" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-104" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#C55A11;strokeWidth=2;endArrow=classic;endFill=1;fontSize=12;fontColor=#C55A11;labelBackgroundColor=#ffffff;labelBorderColor=#C55A11;" value="调用 MCP / 浏览器 / CLI">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="1220" as="sourcePoint" />
+            <mxPoint x="1080" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-105" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#C55A11;strokeWidth=2;endArrow=classic;endFill=1;dashed=1;fontSize=12;fontColor=#C55A11;labelBackgroundColor=#ffffff;labelBorderColor=#C55A11;" value="工具执行完成">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="1300" />
+              <mxPoint x="840" y="1300" />
+              <mxPoint x="840" y="960" />
+            </Array>
+            <mxPoint x="1160" y="1220" as="sourcePoint" />
+            <mxPoint x="840" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-106" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#808080;strokeWidth=1.5;endArrow=classic;endFill=1;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1160" y="1260" as="sourcePoint" />
+            <mxPoint x="1160" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-107" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#BFBFBF;fontColor=#333333;fontStyle=0;fontSize=1;startSize=0;" value="" vertex="1">
+          <mxGeometry height="140" width="1200" x="240" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-108" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#1F4E79;" value="① 用户 / 对话层" vertex="1">
+          <mxGeometry height="20" width="180" x="255" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-109" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#E2EFDA;strokeColor=#548235;fontColor=#1F4E79;fontSize=12;fontStyle=1;" value="开始" vertex="1">
+          <mxGeometry height="60" width="60" x="340" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-110" parent="1" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#2E75B6;fontColor=#1F4E79;fontSize=12;fontStyle=1;" value="用户输入请求" vertex="1">
+          <mxGeometry height="50" width="140" x="460" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-111" parent="1" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#2E75B6;fontColor=#1F4E79;fontSize=12;fontStyle=1;" value="接收最终回复" vertex="1">
+          <mxGeometry height="50" width="160" x="1120" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-112" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FCE4D6;strokeColor=#C55A11;fontColor=#1F4E79;fontSize=12;fontStyle=1;" value="结束" vertex="1">
+          <mxGeometry height="60" width="60" x="1280" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-113" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#fafcff;strokeColor=#BFBFBF;fontColor=#333333;fontStyle=0;fontSize=1;startSize=0;" value="" vertex="1">
+          <mxGeometry height="400" width="1200" x="240" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-114" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#1F4E79;" value="② Agent / 推理层" vertex="1">
+          <mxGeometry height="20" width="180" x="255" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-115" parent="1" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#2E75B6;fontColor=#1F4E79;fontSize=12;" value="接收用户消息" vertex="1">
+          <mxGeometry height="60" width="160" x="480" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-116" parent="1" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#2E75B6;fontColor=#1F4E79;fontSize=12;" value="加载系统 Prompt &amp;&#xa;可用 Skill 列表" vertex="1">
+          <mxGeometry height="60" width="160" x="680" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-117" parent="1" style="rhombus;shadow=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#C55A11;fontColor=#8B3A00;fontSize=12;fontStyle=1;" value="是否命中&#xa;某个 Skill?" vertex="1">
+          <mxGeometry height="80" width="160" x="880" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-118" parent="1" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#F2F2F2;strokeColor=#808080;fontColor=#333333;fontSize=12;" value="通用对话流程&#xa;(纯 LLM 回答)" vertex="1">
+          <mxGeometry height="60" width="160" x="1120" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-119" parent="1" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#E2EFDA;strokeColor=#548235;fontColor=#375623;fontSize=12;" value="注入匹配 Skill 的&#xa;SKILL.md 规则" vertex="1">
+          <mxGeometry height="60" width="240" x="880" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-120" parent="1" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#E2EFDA;strokeColor=#548235;fontColor=#375623;fontSize=12;" value="模型基于用户输入&#xa;+ Skill 规则推理" vertex="1">
+          <mxGeometry height="60" width="200" x="640" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-121" parent="1" style="rhombus;shadow=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#C55A11;fontColor=#8B3A00;fontSize=12;fontStyle=1;" value="需要调用&#xa;外部工具?" vertex="1">
+          <mxGeometry height="80" width="160" x="480" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-122" parent="1" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#E2EFDA;strokeColor=#548235;fontColor=#375623;fontSize=12;" value="直接构造回复" vertex="1">
+          <mxGeometry height="60" width="160" x="1080" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-123" parent="1" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#E2EFDA;strokeColor=#548235;fontColor=#375623;fontSize=12;fontStyle=1;" value="汇总工具返回 &amp; 推理结果&#xa;合成最终回复" vertex="1">
+          <mxGeometry height="60" width="200" x="680" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-124" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#fbfaf3;strokeColor=#BFBFBF;fontColor=#333333;fontStyle=0;fontSize=1;startSize=0;" value="" vertex="1">
+          <mxGeometry height="320" width="1200" x="240" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-125" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#1F4E79;" value="③ Skill / 工具层" vertex="1">
+          <mxGeometry height="20" width="180" x="255" y="1025" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-126" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#E2EFDA;strokeColor=#548235;fontColor=#375623;fontSize=12;" value="本地 Skill 文件库&#xa;skills/&lt;name&gt;/SKILL.md" vertex="1">
+          <mxGeometry height="120" width="200" x="460" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-127" parent="1" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#2E75B6;fontColor=#1F4E79;fontSize=12;" value="Skill 元数据 &amp; 规则&#xa;(name / description /&#xa;输入输出约束)" vertex="1">
+          <mxGeometry height="80" width="200" x="700" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-128" parent="1" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#C55A11;fontColor=#8B3A00;fontSize=12;" value="外部工具执行器&#xa;(MCP / 浏览器 / CLI)" vertex="1">
+          <mxGeometry height="80" width="200" x="1040" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-129" parent="1" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#EDEDED;strokeColor=#808080;fontColor=#333333;fontSize=11;dashed=1;" value="示例: drawio-generator&#xa;→ 输出标准 mxfile XML" vertex="1">
+          <mxGeometry height="60" width="200" x="1040" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-130" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BFBFBF;fontColor=#333333;fontSize=12;" value="" vertex="1">
+          <mxGeometry height="110" width="360" x="280" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-131" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#1F4E79;" value="图例" vertex="1">
+          <mxGeometry height="18" width="80" x="300" y="1368" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-132" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#2E75B6;" value="" vertex="1">
+          <mxGeometry height="14" width="20" x="300" y="1395" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-133" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="主流程 / Agent 通用步骤" vertex="1">
+          <mxGeometry height="18" width="220" x="326" y="1393" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-134" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2EFDA;strokeColor=#548235;" value="" vertex="1">
+          <mxGeometry height="14" width="20" x="300" y="1417" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-135" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="命中 Skill 后的推理路径" vertex="1">
+          <mxGeometry height="18" width="220" x="326" y="1415" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-136" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#C55A11;" value="" vertex="1">
+          <mxGeometry height="14" width="20" x="300" y="1439" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-137" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="调用外部工具 (MCP/浏览器/CLI)" vertex="1">
+          <mxGeometry height="18" width="260" x="326" y="1437" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
