@@ -180,6 +180,15 @@
         <mxCell id="W4h_WMsA1dUNxwlXi-L5-113" parent="1" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#fafcff;strokeColor=#BFBFBF;fontColor=#333333;fontStyle=0;fontSize=1;startSize=0;" value="" vertex="1">
           <mxGeometry height="400" width="1200" x="240" y="600" as="geometry" />
         </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-122" parent="W4h_WMsA1dUNxwlXi-L5-113" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#E2EFDA;strokeColor=#548235;fontColor=#375623;fontSize=12;" value="直接构造回复" vertex="1">
+          <mxGeometry height="60" width="160" x="810" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-119" parent="W4h_WMsA1dUNxwlXi-L5-113" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#E2EFDA;strokeColor=#548235;fontColor=#375623;fontSize=12;" value="注入匹配 Skill 的&#xa;SKILL.md 规则" vertex="1">
+          <mxGeometry height="60" width="240" x="630" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="W4h_WMsA1dUNxwlXi-L5-120" parent="W4h_WMsA1dUNxwlXi-L5-113" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#E2EFDA;strokeColor=#548235;fontColor=#375623;fontSize=12;" value="模型基于用户输入&#xa;+ Skill 规则推理" vertex="1">
+          <mxGeometry height="60" width="200" x="450" y="280" as="geometry" />
+        </mxCell>
         <mxCell id="W4h_WMsA1dUNxwlXi-L5-114" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#1F4E79;" value="② Agent / 推理层" vertex="1">
           <mxGeometry height="20" width="180" x="255" y="605" as="geometry" />
         </mxCell>
@@ -195,17 +204,8 @@
         <mxCell id="W4h_WMsA1dUNxwlXi-L5-118" parent="1" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#F2F2F2;strokeColor=#808080;fontColor=#333333;fontSize=12;" value="通用对话流程&#xa;(纯 LLM 回答)" vertex="1">
           <mxGeometry height="60" width="160" x="1120" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="W4h_WMsA1dUNxwlXi-L5-119" parent="1" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#E2EFDA;strokeColor=#548235;fontColor=#375623;fontSize=12;" value="注入匹配 Skill 的&#xa;SKILL.md 规则" vertex="1">
-          <mxGeometry height="60" width="240" x="880" y="840" as="geometry" />
-        </mxCell>
-        <mxCell id="W4h_WMsA1dUNxwlXi-L5-120" parent="1" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#E2EFDA;strokeColor=#548235;fontColor=#375623;fontSize=12;" value="模型基于用户输入&#xa;+ Skill 规则推理" vertex="1">
-          <mxGeometry height="60" width="200" x="640" y="840" as="geometry" />
-        </mxCell>
         <mxCell id="W4h_WMsA1dUNxwlXi-L5-121" parent="1" style="rhombus;shadow=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#C55A11;fontColor=#8B3A00;fontSize=12;fontStyle=1;" value="需要调用&#xa;外部工具?" vertex="1">
           <mxGeometry height="80" width="160" x="480" y="830" as="geometry" />
-        </mxCell>
-        <mxCell id="W4h_WMsA1dUNxwlXi-L5-122" parent="1" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#E2EFDA;strokeColor=#548235;fontColor=#375623;fontSize=12;" value="直接构造回复" vertex="1">
-          <mxGeometry height="60" width="160" x="1080" y="840" as="geometry" />
         </mxCell>
         <mxCell id="W4h_WMsA1dUNxwlXi-L5-123" parent="1" style="rounded=1;shadow=1;whiteSpace=wrap;html=1;fillColor=#E2EFDA;strokeColor=#548235;fontColor=#375623;fontSize=12;fontStyle=1;" value="汇总工具返回 &amp; 推理结果&#xa;合成最终回复" vertex="1">
           <mxGeometry height="60" width="200" x="680" y="960" as="geometry" />
