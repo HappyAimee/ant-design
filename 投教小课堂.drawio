@@ -69,7 +69,7 @@
         <mxCell id="HZD5UZn0R6FL948c-_-j-26" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" value="AI生成层" vertex="1">
           <mxGeometry height="30" width="120" x="240" y="912" as="geometry" />
         </mxCell>
-        <mxCell id="HZD5UZn0R6FL948c-_-j-90" edge="1" parent="1" source="HZD5UZn0R6FL948c-_-j-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+        <mxCell id="HZD5UZn0R6FL948c-_-j-90" edge="1" parent="1" source="HZD5UZn0R6FL948c-_-j-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="HZD5UZn0R6FL948c-_-j-30">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="1037" as="targetPoint" />
           </mxGeometry>
@@ -81,7 +81,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HZD5UZn0R6FL948c-_-j-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#daefc3;strokeColor=#82b366;fontSize=12;shadow=1;" value="⑩ 个性化出题&#xa;(错题→变体题)" vertex="1">
-          <mxGeometry height="50" width="140" x="270" y="1017" as="geometry" />
+          <mxGeometry height="50" width="140" x="270" y="1014" as="geometry" />
         </mxCell>
         <mxCell id="HZD5UZn0R6FL948c-_-j-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#daefc3;strokeColor=#82b366;fontSize=12;shadow=1;" value="⑪ 解析生成出题&lt;br&gt;(RAG检索增强)" vertex="1">
           <mxGeometry height="50" width="140" x="270" y="1087" as="geometry" />
@@ -121,9 +121,6 @@
         </mxCell>
         <mxCell id="HZD5UZn0R6FL948c-_-j-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="[1]用户信息输入" vertex="1">
           <mxGeometry height="35" width="100" x="270" y="1265" as="geometry" />
-        </mxCell>
-        <mxCell id="HZD5UZn0R6FL948c-_-j-92" edge="1" parent="1" source="HZD5UZn0R6FL948c-_-j-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="HZD5UZn0R6FL948c-_-j-44">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HZD5UZn0R6FL948c-_-j-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="[2]题库题目推荐" vertex="1">
           <mxGeometry height="35" width="100" x="400" y="1265" as="geometry" />
@@ -190,7 +187,7 @@
         <mxCell id="HZD5UZn0R6FL948c-_-j-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8d5f5;strokeColor=#9966cc;fontSize=11;shadow=1;" value="计分系统&#xa;(ScoreSkill)" vertex="1">
           <mxGeometry height="40" width="120" x="710" y="1420" as="geometry" />
         </mxCell>
-        <mxCell id="HZD5UZn0R6FL948c-_-j-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8d5f5;strokeColor=#9966cc;fontSize=11;shadow=1;" value="错题博物馆&lt;br&gt;(复习空间)" vertex="1">
+        <mxCell id="HZD5UZn0R6FL948c-_-j-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8d5f5;strokeColor=#9966cc;fontSize=11;shadow=1;" value="更新错题库&lt;div&gt;以及用户个性化信息&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="120" x="850" y="1420" as="geometry" />
         </mxCell>
         <mxCell id="HZD5UZn0R6FL948c-_-j-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8d5f5;strokeColor=#9966cc;fontSize=11;shadow=1;" value="HUD界面&#xa;(HP/积分/连击)" vertex="1">
